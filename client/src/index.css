@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap');
+
+:root {
+	--home-bg: #f8f5ef;
+	--home-surface: #fffdf9;
+	--home-border: #e8dece;
+	--home-text: #1f2f3d;
+	--home-muted: #5d6e7a;
+	--home-primary: #1f5e86;
+	--home-primary-deep: #174766;
+	--home-accent: #dd8a2d;
+	--home-accent-deep: #b86a14;
+	--home-chip: #f7e8d2;
+	--font-body: 'Manrope', sans-serif;
+	--font-heading: 'Playfair Display', serif;
+}
+
+html {
+	font-size: 17px;
+}
+
+body {
+	font-family: var(--font-body);
+	line-height: 1.65;
+	letter-spacing: 0.01em;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-heading);
+	letter-spacing: 0.01em;
+	text-wrap: balance;
+}
+
+p {
+	text-wrap: pretty;
+}

@@ -1,0 +1,16 @@
+.env
+node_modules/
+node_modules
+/node_modules
+dist
+logs
+coverage
+*.log
+*.tmp
+.DS_Store
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+
