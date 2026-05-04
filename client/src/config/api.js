@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://sandctours.duckdns.org';
+const API_BASE_URL = 'https://sandctours.duckdns.org/api/v1';
 
 // Create axios instance
 const axiosInstance = axios.create({
