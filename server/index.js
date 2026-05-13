@@ -12,7 +12,7 @@ import cors from 'cors';
 dotenv.config();
 
 const app = express();
-const CORS_ORIGINS = ["https://www.sandctours.com", "https://sandctours.com/"]
+const CORS_ORIGINS = ["https://www.sandctours.com", "https://sandctours.com"]
 
 // app.use((req, res, next) => {
 //     console.log("Incoming:", req.method, req.url);
