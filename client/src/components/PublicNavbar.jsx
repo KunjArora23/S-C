@@ -14,7 +14,7 @@ export const PublicNavbar = () => {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-3">
           <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-linear-to-br from-(--home-accent) to-(--home-accent-deep) text-base text-white font-bold">
-            <img src="../../S&C images/logo.png" alt="" />
+            <img src="/logo.png" alt="" />
           </div>
           <div>
             <p className="text-lg font-semibold tracking-tight text-(--home-text)">S & C Tours</p>

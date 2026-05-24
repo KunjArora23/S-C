@@ -16,6 +16,7 @@ export const PublicToursPage = () => {
       try {
         const response = await apiCall.get('/cities');
         setCities(response.cities || []);
+        console.log('Fetched cities:', response.cities);
       } catch (err) {
         setError(err.message || 'Failed to load cities');
       } finally {
@@ -24,6 +25,7 @@ export const PublicToursPage = () => {
     };
 
     fetchCities();
+    
   }, []);
 
   const citiesWithTours = useMemo(
